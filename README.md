@@ -1,2 +1,2 @@
 # envato-api-gateway-js
-JavaScript SDK for marketplace api-gateway
+JavaScript SDK for Envato marketplace api-gateway
