@@ -38,6 +38,10 @@ apiGateway.stats.getTotalUsers()
 * stats
   * [`getTotalItems()`](https://build.envato.com/api/#market_TotalItems)
   * [`getTotalUsers()`](https://build.envato.com/api/#market_TotalUsers)
+* catalog
+  * [`getCollectionById(id)`](https://build.envato.com/api/#market_0_Catalog_Collection)
+  * [`getItemById(id)`](https://build.envato.com/api/#market_0_Catalog_Item)
+  * [`searchItems(params)`](https://build.envato.com/api/#search_GET_search_item_json)
 * _coming soon_
 
 ## Development
