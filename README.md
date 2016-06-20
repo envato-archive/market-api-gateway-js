@@ -45,6 +45,10 @@ apiGateway.stats.getTotalUsers()
   * [`searchComments(params)`](https://build.envato.com/api/#search_GET_search_comment_json)
   * [`popularItemsBySite(site)`](https://build.envato.com/api/#market_Popular)
   * [`categoriesBySite(site)`](https://build.envato.com/api/#market_Categories)
+  * [`getItemPricesById(id)`](https://build.envato.com/api/#!/market/ItemPrices)
+  * [`getNewfilesBySiteAndCategory(params)`](https://build.envato.com/api/#!/market/NewFiles)
+  * [`findFeaturedItemsBySite(site)`](https://build.envato.com/api/#market_Features)
+  * [`randomNewItemsBySiteAndCategory(params)`](https://build.envato.com/api/#market_RandomNewFiles)
 * _coming soon_
 
 ## Development
