@@ -3,7 +3,9 @@ JavaScript SDK for Envato marketplace api-gateway
 
 ## Installation
 
-`npm install envato-api-gateway-js`
+```sh
+npm install @envato-marketplace-foundation/marketplace-api-gateway-js
+```
 
 ## Documentation
 
@@ -65,6 +67,14 @@ apiGateway.stats.getTotalUsers()
 $ npm install
 $ npm test
 ```
+
+**Publish** to npm.
+
+```sh
+npm publish --access=public
+```
+
+If you want to publish module to npm, check the documentation at [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages) for more detail.
 
 ## License
 

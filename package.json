@@ -1,5 +1,5 @@
 {
-  "name": "envato-marketplace-api-gateway-js",
+  "name": "@envato-marketplace-foundation/marketplace-api-gateway-js",
   "private": true,
   "version": "0.0.1",
   "description": "JavaScript SDK for Envato marketplace api-gateway",
