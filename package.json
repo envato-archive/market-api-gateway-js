@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "standard",
+    "pretest": "npm run lint",
     "test": "tape test/*.test.js"
   },
   "repository": {
