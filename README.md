@@ -33,6 +33,8 @@ apiGateway.stats.getTotalUsers()
   })
 ```
 
+http://kbs.sports.qq.com/kbsweb/game.htm?mid=100000:1468535
+
 ### Available resources & methods
 
 * stats
@@ -42,6 +44,9 @@ apiGateway.stats.getTotalUsers()
   * [`getCollectionById(id)`](https://build.envato.com/api/#market_0_Catalog_Collection)
   * [`getItemById(id)`](https://build.envato.com/api/#market_0_Catalog_Item)
   * [`searchItems(params)`](https://build.envato.com/api/#search_GET_search_item_json)
+  * [`searchComments(params)`](https://build.envato.com/api/#search_GET_search_comment_json)
+  * [`popularItemsBySite(site)`](https://build.envato.com/api/#market_Popular)
+  * [`categoriesBySite(site)`](https://build.envato.com/api/#market_Categories)
 * _coming soon_
 
 ## Development
