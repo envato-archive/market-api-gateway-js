@@ -7,19 +7,27 @@ JavaScript SDK for Envato marketplace api-gateway
 
 ## Documentation
 
+For detail documentation, check [https://build.envato.com/api](https://build.envato.com/api)
+
 ## API Overview
 
 Create a new apiGateway instance:
 
 ```js
-const ApiGateway = require('envato-api-gateway-js')
+const ApiGateway = require('envato-marketplace-api-gateway-js')
 
 const apiGateway = new ApiGateway('ACCESS_TOKEN')
 // or
 const apiGateway = new ApiGateway({
-  ACCESS_TOKEN: 'ACCESS_TOKEN'
+  ACCESS_TOKEN: 'ACCESS_TOKEN',
+  baseURL: 'new api endpint', // optional
+  timeout: 3000 // optional
 })
 ```
+
+optional options:
+  * `baseURL` _String_ api base url, default to https://api.envato.com/v1
+  * `timeout` _Integer_ request timeout, default to 2000
 
 Each resource is under it's own category as documented on [https://build.envato.com/api/](https://build.envato.com/api/) and it return a `Promise`:
 

@@ -1,5 +1,5 @@
 {
-  "name": "envato-api-gateway-js",
+  "name": "envato-marketplace-api-gateway-js",
   "private": true,
   "version": "0.0.1",
   "description": "JavaScript SDK for Envato marketplace api-gateway",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/envato/envato-api-gateway-js.git"
+    "url": "git+https://github.com/envato/marketplace-api-gateway-js.git"
   },
   "keywords": [
     "api-gateway",
@@ -21,9 +21,9 @@
   "author": "Envato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/envato/envato-api-gateway-js/issues"
+    "url": "https://github.com/envato/marketplace-api-gateway-js/issues"
   },
-  "homepage": "https://github.com/envato/envato-api-gateway-js#readme",
+  "homepage": "https://github.com/envato/marketplace-api-gateway-js#readme",
   "dependencies": {
     "axios": "^0.12.0",
     "is": "^3.1.0"
