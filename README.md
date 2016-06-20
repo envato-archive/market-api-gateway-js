@@ -33,8 +33,6 @@ apiGateway.stats.getTotalUsers()
   })
 ```
 
-http://kbs.sports.qq.com/kbsweb/game.htm?mid=100000:1468535
-
 ### Available resources & methods
 
 * stats
