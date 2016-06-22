@@ -86,8 +86,8 @@ If you want to publish module to npm, check the documentation at [Working with s
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/envato-api-gateway-js.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/envato-api-gateway-js
+[npm-image]: https://img.shields.io/npm/v/@envato-marketplace-foundation/market-api-gateway-js.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@envato-marketplace-foundation/market-api-gateway-js
 [travis-image]: https://img.shields.io/travis/envato/envato-api-gateway-js/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/envato/envato-api-gateway-js
 [downloads-image]: http://img.shields.io/npm/dm/envato-api-gateway-js.svg?style=flat-square
