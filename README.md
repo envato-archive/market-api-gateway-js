@@ -1,10 +1,10 @@
-# envato-api-gateway-js
+# market-api-gateway-js
 JavaScript SDK for Envato marketplace api-gateway
 
 ## Installation
 
 ```sh
-npm install @envato-marketplace-foundation/marketplace-api-gateway-js
+npm install @envato-marketplace-foundation/market-api-gateway-js
 ```
 
 ## Documentation
@@ -16,7 +16,7 @@ For detail documentation, check [https://build.envato.com/api](https://build.env
 Create a new apiGateway instance:
 
 ```js
-const ApiGateway = require('envato-marketplace-api-gateway-js')
+const ApiGateway = require('market-api-gateway-js')
 
 const apiGateway = new ApiGateway('ACCESS_TOKEN')
 // or
