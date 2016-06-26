@@ -22,7 +22,7 @@ For detail documentation, check [https://build.envato.com/api](https://build.env
 Create a new apiGateway instance:
 
 ```js
-const ApiGateway = require('market-api-gateway-js')
+const ApiGateway = require('@envato-marketplace-foundation/market-api-gateway-js')
 
 const apiGateway = new ApiGateway('ACCESS_TOKEN')
 // or
@@ -64,7 +64,7 @@ apiGateway.stats.getTotalUsers()
   * [`getItemPricesById(id)`](https://build.envato.com/api/#!/market/ItemPrices)
   * [`getNewfilesBySiteAndCategory(params)`](https://build.envato.com/api/#!/market/NewFiles)
   * [`findFeaturedItemsBySite(site)`](https://build.envato.com/api/#market_Features)
-  * [`randomNewItemsBySiteAndCategory(params)`](https://build.envato.com/api/#market_RandomNewFiles)
+  * [`randomNewItemsBySite(params)`](https://build.envato.com/api/#market_RandomNewFiles)
 * _coming soon_
 
 ## Development
