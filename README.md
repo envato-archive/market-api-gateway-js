@@ -33,7 +33,7 @@ const apiGateway = new ApiGateway({
 ```
 
 optional options:
-  * `baseURL` _String_ api base url, default to https://api.envato.com/v1
+  * `baseURL` _String_ api base url, default to https://api.envato.com
   * `timeout` _Integer_ request timeout, default to 2000
 
 Each resource is under it's own category as documented on [https://build.envato.com/api/](https://build.envato.com/api/) and it return a `Promise`:
