@@ -35,7 +35,7 @@ test('new ApiGateway instance', function (t) {
 
   t.test('should create apiGateway instance with object', function (assert) {
     const apiGateway = new ApiGateway({
-      ACCESS_TOKEN: 'dummy token'
+      accessToken: 'dummy token'
     })
 
     assert.equal(apiGateway instanceof ApiGateway, true, 'should be instance of ApiGateway')

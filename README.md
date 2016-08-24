@@ -26,7 +26,7 @@ const ApiGateway = require('@envato-marketplace-foundation/market-api-gateway-js
 const apiGateway = new ApiGateway('ACCESS_TOKEN')
 // or
 const apiGateway = new ApiGateway({
-  ACCESS_TOKEN: 'ACCESS_TOKEN',
+  accessToken: 'ACCESS_TOKEN',
   baseURL: 'new api endpint', // optional
   timeout: 3000 // optional
 })
