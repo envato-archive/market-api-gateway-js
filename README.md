@@ -66,6 +66,7 @@ apiGateway.stats.getTotalUsers()
   * [`randomNewItemsBySite(params)`](https://build.envato.com/api/#market_RandomNewFiles)
 * recommender
   * `getRecommendedItems(itemId)`
+  * `getRecommendedSearches(term, site)`
 
 ## Development
 
