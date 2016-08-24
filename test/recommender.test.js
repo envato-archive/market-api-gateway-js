@@ -1,7 +1,6 @@
 const test = require('tape')
 const utils = require('./testUtils')
 const noop = function () {}
-const util = require('util')
 
 const ApiGateway = require('../lib/')
 const apiGateway = new ApiGateway('dummy token')
@@ -13,8 +12,7 @@ test('Recommender.getRecommendedItems()', function (t) {
     assert.plan(1)
 
     assert.throws(function () {
-      var itemId = undefined
-      noop(apiGateway.recommender.getRecommendedItems(itemId))
+      noop(apiGateway.recommender.getRecommendedItems())
     }, 'shoud throw')
     assert.end()
   })
@@ -45,10 +43,7 @@ test('Recommender.getRecommendedSearches()', function (t) {
   t.test('should throw if missing term', function (assert) {
     assert.plan(1)
     assert.throws(function () {
-      var term = undefined
-      var site = 'themeforest.net'
-
-      noop(apiGateway.recommender.getRecommendedSearches(term, site))
+      noop(apiGateway.recommender.getRecommendedSearches(undefined, 'themeforest.net'))
     }, 'shoud throw')
     assert.end()
   })
@@ -56,10 +51,7 @@ test('Recommender.getRecommendedSearches()', function (t) {
   t.test('should throw if missing site', function (assert) {
     assert.plan(1)
     assert.throws(function () {
-      var term = 'hello'
-      var site = undefined
-
-      noop(apiGateway.recommender.getRecommendedSearches(term, site))
+      noop(apiGateway.recommender.getRecommendedSearches('term', undefined))
     }, 'shoud throw')
     assert.end()
   })
