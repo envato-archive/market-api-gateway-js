@@ -64,7 +64,9 @@ apiGateway.stats.getTotalUsers()
   * [`getNewfilesBySiteAndCategory(params)`](https://build.envato.com/api/#!/market/NewFiles)
   * [`findFeaturedItemsBySite(site)`](https://build.envato.com/api/#market_Features)
   * [`randomNewItemsBySite(params)`](https://build.envato.com/api/#market_RandomNewFiles)
-* _coming soon_
+* recommender
+  * `getRecommendedItems(itemId)`
+  * `getRecommendedSearches(term, site)`
 
 ## Development
 
