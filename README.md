@@ -26,7 +26,7 @@ const ApiGateway = require('@envato-marketplace-foundation/market-api-gateway-js
 const apiGateway = new ApiGateway('ACCESS_TOKEN')
 // or
 const apiGateway = new ApiGateway({
-  ACCESS_TOKEN: 'ACCESS_TOKEN',
+  accessToken: 'ACCESS_TOKEN',
   baseURL: 'new api endpint', // optional
   timeout: 3000 // optional
 })
@@ -64,7 +64,9 @@ apiGateway.stats.getTotalUsers()
   * [`getNewfilesBySiteAndCategory(params)`](https://build.envato.com/api/#!/market/NewFiles)
   * [`findFeaturedItemsBySite(site)`](https://build.envato.com/api/#market_Features)
   * [`randomNewItemsBySite(params)`](https://build.envato.com/api/#market_RandomNewFiles)
-* _coming soon_
+* recommender
+  * `getRecommendedItems(itemId)`
+  * `getRecommendedSearches(term, site)`
 
 ## Development
 

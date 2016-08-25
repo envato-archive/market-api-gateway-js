@@ -4,6 +4,7 @@ const noop = function () {}
 const ApiGateway = require('../lib/')
 const stats = require('../lib/stats')
 const catalog = require('../lib/catalog')
+const recommender = require('../lib/recommender')
 
 test('new ApiGateway instance', function (t) {
   t.test('should throw if missing access token', function (assert) {
@@ -29,13 +30,14 @@ test('new ApiGateway instance', function (t) {
 
     assert.equal(apiGateway.stats instanceof stats, true, 'should create new stats instance')
     assert.equal(apiGateway.catalog instanceof catalog, true, 'should create new catalog instance')
+    assert.equal(apiGateway.recommender instanceof recommender, true, 'should create new recommender instance')
 
     assert.end()
   })
 
   t.test('should create apiGateway instance with object', function (assert) {
     const apiGateway = new ApiGateway({
-      ACCESS_TOKEN: 'dummy token'
+      accessToken: 'dummy token'
     })
 
     assert.equal(apiGateway instanceof ApiGateway, true, 'should be instance of ApiGateway')
@@ -43,6 +45,7 @@ test('new ApiGateway instance', function (t) {
 
     assert.equal(apiGateway.stats instanceof stats, true, 'should create new stats instance')
     assert.equal(apiGateway.catalog instanceof catalog, true, 'should create new catalog instance')
+    assert.equal(apiGateway.recommender instanceof recommender, true, 'should create new recommender instance')
 
     assert.end()
   })
