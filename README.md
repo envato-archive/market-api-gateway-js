@@ -50,6 +50,8 @@ apiGateway.stats.getTotalUsers()
 
 ### Available resources & methods
 
+* user
+  * [`getAccountDetails()`](https://build.envato.com/api/#market_User)
 * stats
   * [`getTotalItems()`](https://build.envato.com/api/#market_TotalItems)
   * [`getTotalUsers()`](https://build.envato.com/api/#market_TotalUsers)
